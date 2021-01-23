@@ -1,7 +1,7 @@
 .row {
     width: 100%;
     margin-top: 40px;
-    padding: 10px;
+    padding: 30px 10px 10px;
     border-left: 2px solid goldenrod;
     border-right: 2px solid goldenrod;
     border-radius: 20px;
@@ -10,9 +10,10 @@
 }
 
 .row__title {
-    font-family: 'bb medicate';
-    font-size: 3rem;
+    font-family: 'dark seed';
+    font-size: 2rem;
     margin-top: 0;
+    margin-bottom: 20px;
 }
 
 .row__posters {

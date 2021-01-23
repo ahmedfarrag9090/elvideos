@@ -23,15 +23,15 @@
     min-width: 120px;
     position: fixed;
     left: 20px;
-    color: goldenrod;
-    text-shadow: 1px 1px 1px #333;
+    /* color: aliceblue; */
+    /* font-size: 3rem; */
+    font-family: 'dark seed';
+    text-shadow: 1px 1px 2px #333;
 }
 
 .logo {
     width: 25px;
-    filter: invert(2);
-    transform: translateY(5px) rotateZ(-90deg);
-    transform-origin: center;
+    transform: translateY(3px) ;
 }
 
 .avatar {
