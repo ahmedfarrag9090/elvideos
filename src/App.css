@@ -5,6 +5,6 @@
   transition: all .3s;
 }
 
-.row__wrapper{
+.App .row__wrapper{
   padding: 0 15px;
 }

@@ -38,7 +38,7 @@ function Row({ title, fetchURL }) {
             ? img_baseURL + movie.poster_path
             : "https://via.placeholder.com/100x150/ffffff/21405D?text=NO+IMAGE+AVAILABLE"
         }
-        className={`row__poster ${trailer.trailerTitle === movie.title ?"active-poster" : null}`}
+        className={`row__poster ${trailer.trailerTitle === movie.title ? "active-poster" : null}`}
         alt={movie.title}
       />
       <img
@@ -126,7 +126,6 @@ function Row({ title, fetchURL }) {
     }
   };
 
-  if(movies){
     return (
       <div className="row">
         <h2 className="row__title">{title}</h2>
@@ -140,9 +139,6 @@ function Row({ title, fetchURL }) {
         <button className="row__btn row__btn-left" onClick={scrollToLeft}></button>
       </div>
     );
-  }else {
-    return <h1>Looding...</h1>
-  }
 }
 
 export default Row;
