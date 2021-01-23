@@ -1,0 +1,43 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color: transparent;
+    height: 60px;
+    user-select: none;
+    transition: all .3s ease-out;
+    /* filter: drop-shadow(0 0 10px #daa520); */
+}
+
+.bg-dark {
+    background-color: #001c35;
+
+}
+
+.navbar h1 {
+    word-wrap: none;
+    min-width: 120px;
+    position: fixed;
+    left: 20px;
+    color: goldenrod;
+    text-shadow: 1px 1px 1px #333;
+}
+
+.logo {
+    width: 25px;
+    filter: invert(2);
+    transform: translateY(5px) rotateZ(-90deg);
+    transform-origin: center;
+}
+
+.avatar {
+    width: 50px;
+    position: fixed;
+    right: 20px;
+    filter: drop-shadow(0px 0px 5px #daa520);
+    cursor:  pointer;
+}
