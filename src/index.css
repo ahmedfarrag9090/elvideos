@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'dark seed';
+  src: local('dark seed'),
+  url(./fonts//dark-seed-font/DarkSeed-qZ3Rx.ttf) format('truetype');
+}
+
 body{
   overflow-x: hidden; 
   font-family: 'dark seed', 'Cinzel', serif;
