@@ -18,8 +18,8 @@ function App() {
         <Row title="Action Movies" fetchURL={requests.fetchActionMovies} />
         <Row title="Comedy Movies" fetchURL={requests.fetchComedyMovies} />
         <Row title="Horror Movies" fetchURL={requests.fetchHorrorMovies} />
-        {/* <Row title="Romantic" fetchURL={requests.fetchRomanticMovies} /> */}
-        {/* <Row title="Documentaries" fetchURL={requests.fetchDocumentaries} /> */}
+        <Row title="Romantic" fetchURL={requests.fetchRomanticMovies} />
+        <Row title="Documentaries" fetchURL={requests.fetchDocumentaries} />
       </div>
     </div>
   ); 
