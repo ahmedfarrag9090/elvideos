@@ -42,7 +42,8 @@
 .row__poster,
 .row__poster--back {
     width: 100%;
-    object-fit: contain;
+    -o-object-fit: contain;
+       object-fit: contain;
     position: absolute;
     top: 0;
     left: 0;
@@ -54,7 +55,8 @@
 .row__poster--back {
     z-index: 1;
     height: 100%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     transform: translateZ(-300px);
 }
 
